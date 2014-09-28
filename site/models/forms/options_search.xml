@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form name="options">
+	<fieldset name="options_search">
+		<field type="text" name="text_search" label="Text Search" description="Search within Name in Options" value="" placeholder="Text Search" filter="safehtml" />
+	</fieldset>
+</form>

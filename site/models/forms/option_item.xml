@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="fields">
+
+              <field name="id" type="hidden" default="0" /> 
+
+       
+					<field type="text" label="COM_WBTY_PRICING_FORM_LBL_OPTION_ITEMS_TITLE" name="title" filter="safehtml" required="true" class="default_col" />
+					<field type="text" label="COM_WBTY_PRICING_FORM_LBL_OPTION_ITEMS_PRICE_CHANGE" name="price_change" filter="safehtml" />
+					<field type="list" label="COM_WBTY_PRICING_FORM_LBL_OPTION_ITEMS_PRICE_CHANGE_TYPE" name="price_change_type" description="COM_WBTY_PRICING_FORM_DESC_OPTION_ITEMS_PRICE_CHANGE_TYPE" >
+			
+				<option value="Fixed Amount">Fixed Amount</option>
+				<option value="Percent">Percent</option>
+			</field>
+		<field name="option_id" type="hidden" filter="integer" />
+
+         <field
+                name="state"
+                type="hidden"
+         /> 
+
+                <field name="checked_out" type="hidden" filter="unset" />
+                <field name="checked_out_time" type="hidden" filter="unset" />
+				
+				<field name="created_by" type="hidden" filter="integer" />
+				<field name="created_time" type="hidden" filter="safehtml" />
+				
+				<field name="modified_by" type="hidden" filter="integer" overwrite="true" />
+				<field name="modified_time" type="hidden" filter="safehtml" overwrite="true" />
+
+	</fieldset>
+
+</form>
